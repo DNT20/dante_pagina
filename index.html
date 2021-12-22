@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIENDA ONLINE</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				
+				<div class="four columns">
+					<h1>DANTE</h1>
+				</div>
+				<div class="two columns u-pull-right">
+					<ul>
+						<li class="submenu">
+							<img src="img/cart.png">
+							<div id="carrito">
+								<p class="vacio">carrito vacio</p>
+								<table class="u-full-width">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Productos</th>
+											<th>Precio</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="img/product1.jpg" width="100">
+											</td>
+											<td>TOYOTA HILUX</td>
+											<td>$44,100.00</td>
+											<td><a href="#" class="borrar-product">X</a></td>
+										</tr>
+										<tr>
+											<td>
+												<img src="img/product3.jpg" width="100">
+											</td>
+											<td>FORD RANGER RAPTOR</td>
+											<td>$54,990.00</td>
+											<td><a href="#" class="borrar-product">X</a></td>
+										</tr>
+									</tbody>
+								</table>
+								<a href="#" class="button u-full-width">vaciar carrito</a>
+							</div>	
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="six columns">
+					<div class="contenido-hero">
+						<h2>HAZ TUS PEDIDOS</h2>
+						<p>TODOS LOS PEDIDOS CON DESCUENTO</p>
+						<form>
+							<input class="u-full-width" type="text" placeholder="¿ANIMATE A COMPRAR?" id="buscador">
+							<input type="submit" class="submit-buscador">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="barra">
+		<div class="container">
+			<div class="row">
+				<div class="four columns icono icono1">
+					<p>COMPRAS SEGURAS<br>
+					PAGO 100% SEGURO</p>
+				</div>
+				<div class="four columns icono icono2">
+					<p>REGRESO 30 DÍAS<br>
+					TIENES 30 DÍAS PARA DEVOLVER</p>
+				</div>
+				<div class="four columns icono icono3">
+					<p>ENVÍO GRATIS<br>
+					EN TODOS LOS PEDIDOS SUPERIORES A $ 99,000.00</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="lista-products" class="container">
+		<h1 class="encabezado">Pedidos en linea</h1>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product1.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>TOYOTA HILUX</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$44,200.00<span class="u-pull-right">$44,100.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product2.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>MAHINDRA SCORPIO 4 × 4 PIKUP</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$34,600.00<span class="u-pull-right">$34,500.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product3.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>FORD RANGER RAPTOR</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$55,990.00<span class="u-pull-right">$54,990.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product4.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>YAMAHA YZF R1</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$4,599.00<span class="u-pull-right">$4,499.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product5.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>KAWASAKI NINJA H2R</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$9,300.00<span class="u-pull-right">$9,200.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/product6.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>RONCO RZ250</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$6,799.00<span class="u-pull-right">$6,699.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="four columns">
+					<nav class="menu">
+						<a class="enlace" href="#">CONTÁCTENOS:</a>
+						<a class="enlace" href="#">5611 Wellington Road, Suite 115, Gainesville,
+VA 20155</a>
+						<a class="enlace" href="#">914273095 - 900210446</a>
+						<a class="enlace" href="#">dantemamanim028@gmail.com</a>
+						<a class="enlace" href="#">Los 7 dias de la semana 10.00 A. M. a 6.00 P. M.</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
